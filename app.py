@@ -11,13 +11,7 @@ Institutions invest in websites, CRM, email, and SEO — but often do not know h
 This demo shows how NJCU Adult & Continuing Education programs can be benchmarked for AI discoverability, competitor visibility, and content opportunities.
 """)
 
-col1, col2 = st.columns(2)
-
-with col1:
-    st.page_link("pages/1_Dashboard.py", label="View Demo Dashboard", icon="📊")
-
-with col2:
-    st.button("Run Sample Analysis", disabled=True)
+st.info("Use the left sidebar to open the Dashboard page.")
 
 st.markdown("### What this demo includes")
 st.markdown("""
